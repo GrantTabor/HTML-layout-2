@@ -1,0 +1,44 @@
+.flex-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    height: 75px;
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+}
+.flex-container div{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+
+}
+.logo{
+    justify-self: start;
+    padding-left: 300px;
+    font-size: 30px;
+}
+.navigation span{
+    padding: 13px
+}
+.sidebar{
+    justify-self: end;
+    padding-left: 600px;
+}
+.main-content{
+    background-color: grey;
+    color: white;
+    height: 100vh;
+    display: flex; 
+    align-items: flex-end;
+    flex-direction: row;
+    background-image: url("https://www.spacex.com/static/images/backgrounds/home_feature.webp");
+    background-size: cover;
+}
+.launch-info{
+
+}
+
